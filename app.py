@@ -37,7 +37,7 @@ if uploaded_file is not None:
 
     # Preprocess
     img = image.resize((224, 224))
-    img_array = np.array(img) / 255.0
+    img_array = np.array(img)  # keep pixel values 0-255 as ints
     img_array = np.expand_dims(img_array, axis=0)
 
     # Predict
