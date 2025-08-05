@@ -44,5 +44,7 @@ if uploaded_file is not None:
     predictions = model.predict(img_array)
     predicted_index = np.argmax(predictions)
     predicted_class = CLASS_NAMES[predicted_index]
+    confidence = np.max(predictions)
 
     st.success(f"**Prediction:** {predicted_class}")
+    st.write(f"**Confidence:** {confidence:.2%}")
