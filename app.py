@@ -6,7 +6,7 @@ import gdown
 import os
 
 FILE_ID = "1PowMUoqbAQr6Hu1UykKTbUDmkwVA5YXG"
-FILE_NAME = "resnet50_finetuned.keras"
+MODEL_FILENAME = "resnet50_finetuned.keras"
 
 # Class labels
 CLASS_NAMES = [
