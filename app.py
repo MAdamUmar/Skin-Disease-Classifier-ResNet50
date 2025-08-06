@@ -5,8 +5,8 @@ import numpy as np
 import gdown
 import os
 
-FILE_ID = "1PowMUoqbAQr6Hu1UykKTbUDmkwVA5YXG"
-MODEL_FILENAME = "resnet50_finetuned.keras"
+FILE_ID = "1N6F10miFe4DjOk1scbEhj9z062EPvdTO"
+MODEL_FILENAME = "new_resnet50_finetuned.keras"
 
 # Class labels
 CLASS_NAMES = [
