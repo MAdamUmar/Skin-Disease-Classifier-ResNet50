@@ -4,8 +4,6 @@ from PIL import Image
 import numpy as np
 import gdown
 import os
-import cv2  # Added for Grad-CAM overlay
-
 
 FILE_ID = "1N6F10miFe4DjOk1scbEhj9z062EPvdTO"
 MODEL_FILENAME = "new_resnet50_finetuned.keras"
