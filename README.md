@@ -134,6 +134,14 @@ The model supports classification of **14 common skin conditions** including acn
 
 Dermatological care is often **inaccessible, expensive, or delayed**. This tool helps provide **first-pass insight** using AI, encouraging earlier diagnosis and potentially life-changing outcomes — especially in underserved regions. With further clinical refinement, it may assist general physicians or function as a decision-support tool in resource-limited settings.
 
+## 🧪 Real-World Validation
+
+One of the most striking test cases involved the model detecting **Psoriasis** on my own skin — despite me being in remission for quite some time and my psoriasis symptoms being almost negligible. This suggests the model may be picking up on subtle dermatological features not easily visible to the human eye. Maybe if the app was developed sooner, I could have began my treatment earlier (instead of thinking it was allergy! 😭)
+
+![Insert my psoriasis detection](figures/psoriasis_detection.png)
+
+*Figure 5: Even classifying the developer's skin condition!*
+
 ---
 
 ## Project Structure
