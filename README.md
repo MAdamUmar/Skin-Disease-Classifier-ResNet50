@@ -147,6 +147,8 @@ skin-disease-classifier
 ├── figures/
 │ ├── resnet50_results.png
 │ └── mobilenetv2_results.png
+| └── mobilenetv2_confusion.png
+| └── resnet50_confusion.png
 └── README.md
 ```
 It is not feasible to add the model or dataset here, since it exceeds Github's limit of 100 MBs, but you can view the dataset [here](https://drive.google.com/file/d/1o0_qCl57HUR4T6NZcxfuNXp8tugTRGNK/view?usp=sharing) and the model [here](https://drive.google.com/file/d/1N6F10miFe4DjOk1scbEhj9z062EPvdTO/view?usp=sharing).
