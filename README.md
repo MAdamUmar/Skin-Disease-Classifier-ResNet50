@@ -27,7 +27,7 @@ The model supports classification of **14 common skin conditions** including acn
 
 ---
 
-## 🧪 Data Pipeline
+## Data Pipeline
 
 - Built using `tf.data.Dataset`.
 - Employed:
@@ -38,9 +38,9 @@ The model supports classification of **14 common skin conditions** including acn
 
 ---
 
-## 🧠 Models & Architecture
+## Models & Architecture
 
-### 🔹 MobileNetV2
+### MobileNetV2
 
 - Lightweight and fast, designed for mobile and edge deployment.
 - Architecture:
@@ -52,12 +52,17 @@ The model supports classification of **14 common skin conditions** including acn
 - Training:
   - Used `EarlyStopping` and `ModelCheckpoint`
   - Fine-tuned last **30 layers** after top-layer training
+  - Performance:
+    - **Train Accuracy**: 98%
+    - **Validation Accuracy**: 95%
 
-![Insert MobileNetV2 Results](figures/mobilenetv2_results.png)
+![Insert MobileNetV2 Results](figures/mbnv2_results.png)
+
+*Figure 1: MobileNetV2 Progress*
 
 ---
 
-### 🔹 ResNet-50 (Final Model)
+### ResNet-50 (Final Model)
 
 - Chosen as the **final model** due to high accuracy and robustness.
 - Architecture:
@@ -75,9 +80,11 @@ The model supports classification of **14 common skin conditions** including acn
 
 ![Insert ResNet50 Results](figures/resnet50_results.png)
 
+*Figure 2: ResNet50 Progress*
+
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 - Evaluation Metrics:
   - Accuracy
@@ -90,11 +97,16 @@ The model supports classification of **14 common skin conditions** including acn
   - Model generalized well with minimal overfitting.
 
 ![Insert resnet50 confusion matrix](figures/resnet50_confusion.png)
+
+*Figure 3: ResNet50 (Finetuned) Confusion Matrix*
+
 ![Insert mobilenetv2 confusion matrix](figures/mbnv2_confusion.png)
+
+*Figure 4: MobileNetV2 (Finetuned) Confusion Matrix*
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - The fine-tuned ResNet50 model is **hosted on Google Drive**.
 - Deployed via **Streamlit**:
@@ -109,7 +121,7 @@ The model supports classification of **14 common skin conditions** including acn
 
 ---
 
-## 🧠 Potential Improvements
+## Potential Improvements
 
 - Add a **learning rate scheduler** (e.g. ReduceLROnPlateau, OneCycleLR) to MobileNetV2 training to handle plateaus.
 - Integrate **GradCAM** visualizations for medical explainability and model trust.
