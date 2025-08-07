@@ -4,6 +4,14 @@ This project aims to empower individuals to **quickly identify common skin disor
 
 The model supports classification of **14 common skin conditions** including acne, eczema, psoriasis, rosacea, alopecia, and more.
 
+## 🧪 Real-World Validation
+
+One of the most striking test cases involved the model detecting **Psoriasis** on my own skin — despite me being in remission for quite some time and my psoriasis symptoms being almost negligible. This suggests the model may be picking up on subtle dermatological features not easily visible to the human eye. Maybe if the app was developed sooner, I could have began my treatment earlier (instead of thinking it was allergy! 😭)
+
+![Insert my psoriasis detection](figures/psoriasis_detection.png)
+
+*Figure 1: Even classifying the developer's skin condition!*
+
 ---
 
 ## Dataset Preparation
@@ -58,7 +66,7 @@ The model supports classification of **14 common skin conditions** including acn
 
 ![Insert MobileNetV2 Results](figures/mbnv2_results.png)
 
-*Figure 1: MobileNetV2 Progress*
+*Figure 2: MobileNetV2 Progress*
 
 ---
 
@@ -80,7 +88,7 @@ The model supports classification of **14 common skin conditions** including acn
 
 ![Insert ResNet50 Results](figures/resnet50_results.png)
 
-*Figure 2: ResNet50 Progress*
+*Figure 3: ResNet50 Progress*
 
 ---
 
@@ -98,11 +106,11 @@ The model supports classification of **14 common skin conditions** including acn
 
 ![Insert resnet50 confusion matrix](figures/resnet50_confusion.png)
 
-*Figure 3: ResNet50 (Finetuned) Confusion Matrix*
+*Figure 4: ResNet50 (Finetuned) Confusion Matrix*
 
 ![Insert mobilenetv2 confusion matrix](figures/mbnv2_confusion.png)
 
-*Figure 4: MobileNetV2 (Finetuned) Confusion Matrix*
+*Figure 5: MobileNetV2 (Finetuned) Confusion Matrix*
 
 ---
 
@@ -133,14 +141,6 @@ The model supports classification of **14 common skin conditions** including acn
 ## 💡 Why This Matters
 
 Dermatological care is often **inaccessible, expensive, or delayed**. This tool helps provide **first-pass insight** using AI, encouraging earlier diagnosis and potentially life-changing outcomes — especially in underserved regions. With further clinical refinement, it may assist general physicians or function as a decision-support tool in resource-limited settings.
-
-## 🧪 Real-World Validation
-
-One of the most striking test cases involved the model detecting **Psoriasis** on my own skin — despite me being in remission for quite some time and my psoriasis symptoms being almost negligible. This suggests the model may be picking up on subtle dermatological features not easily visible to the human eye. Maybe if the app was developed sooner, I could have began my treatment earlier (instead of thinking it was allergy! 😭)
-
-![Insert my psoriasis detection](figures/psoriasis_detection.png)
-
-*Figure 5: Even classifying the developer's skin condition!*
 
 ---
 
