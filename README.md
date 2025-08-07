@@ -1,4 +1,4 @@
-# 🧠 Skin Disease Classifier using Transfer Learning (ResNet50 & MobileNetV2)
+# Skin Disease Classifier using Transfer Learning (ResNet50 & MobileNetV2)
 
 This project aims to empower individuals to **quickly identify common skin disorders** using deep learning. Born from a personal experience of living undiagnosed with psoriasis for over two years, this tool was built to bridge the gap between skin abnormalities and timely identification — especially for those without immediate access to dermatologists.
 
@@ -6,9 +6,9 @@ The model supports classification of **14 common skin conditions** including acn
 
 ---
 
-## 📁 Dataset Preparation
+## Dataset Preparation
 
-- **Dataset Used**: [SD-198 Skin Disease Dataset](http://www.cs.umd.edu/~vitro/pubs/index.html#SD-198)  
+- **Dataset Used**: The project uses a custom dataset made from the sd-198 dataset. We eliminated rare conditions and chose the ones people commonly face, and expanded the dataset using image augmentation. Thus we went from 198 classes and 6000 images to 14 classes and 9800 images.
 - **Preprocessing Pipeline**:
   - Selected top 50 most frequent disease conditions.
   - Merged 52 sub-conditions into **13 major parent classes**.
@@ -89,6 +89,9 @@ The model supports classification of **14 common skin conditions** including acn
   - Data augmentation boosted minority class performance.
   - Model generalized well with minimal overfitting.
 
+![Insert resnet50 confusion matrix](figures/resnet50_confusion.png)
+![Insert mobilenetv2 confusion matrix](figures/mbnv2_confusion.png)
+
 ---
 
 ## 🚀 Deployment
@@ -121,8 +124,9 @@ Dermatological care is often **inaccessible, expensive, or delayed**. This tool 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
+```
 skin-disease-classifier
 ├── app.py
 ├── requirements.txt
@@ -132,14 +136,14 @@ skin-disease-classifier
 │ ├── resnet50_results.png
 │ └── mobilenetv2_results.png
 └── README.md
-
-It is not feasible to add the model or dataset here, since it exceeds Github's limit of 100 MBs, but you can view the dataset here and the [model](https://drive.google.com/file/d/1N6F10miFe4DjOk1scbEhj9z062EPvdTO/view?usp=sharing) here.
+```
+It is not feasible to add the model or dataset here, since it exceeds Github's limit of 100 MBs, but you can view the dataset [here](https://drive.google.com/file/d/1o0_qCl57HUR4T6NZcxfuNXp8tugTRGNK/view?usp=sharing) and the model [here](https://drive.google.com/file/d/1N6F10miFe4DjOk1scbEhj9z062EPvdTO/view?usp=sharing).
 ---
 
 ## Author
 
 **Muhammad Adam Umar**  
-📍 GitHub: [https://github.com/your-username](https://github.com/MAdamUmar/)  
-🔗 LinkedIn: [https://linkedin.com/in/your-link](https://www.linkedin.com/in/muhammad-adam-umar-26baaa2b5/)  
+📍 [GitHub](https://github.com/MAdamUmar/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-adam-umar-26baaa2b5/)  
 
 ---
