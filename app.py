@@ -15,6 +15,7 @@ HUGGINGFACE_API_KEY = st.secrets.get("HUGGINGFACE_API_KEY")
 # Use a small, free model from Hugging Face
 llm = HuggingFaceHub(
     repo_id="google/flan-t5-base",
+    task="text2text-generation",
     model_kwargs={"temperature": 0.5, "max_length": 200},
     huggingfacehub_api_token=HUGGINGFACE_API_KEY
 )
