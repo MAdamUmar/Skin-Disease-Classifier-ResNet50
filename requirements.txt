@@ -3,3 +3,7 @@ tensorflow
 Pillow
 numpy
 gdown
+langchain
+langchain-community
+huggingface_hub
+python-dotenv
