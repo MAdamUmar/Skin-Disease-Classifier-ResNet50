@@ -10,7 +10,7 @@ from langchain import PromptTemplate, LLMChain
 
 # -------------------- HUGGING FACE SETUP --------------------
 # Get your Hugging Face API key (replace with your key if not using env var)
-HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY", "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")
+HUGGINGFACE_API_KEY = st.secrets.get("HUGGINGFACE_API_KEY")
 
 # Use a small, free model from Hugging Face
 llm = HuggingFaceHub(
