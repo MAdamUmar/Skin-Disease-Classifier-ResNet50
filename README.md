@@ -6,7 +6,7 @@ The model supports classification of **14 common skin conditions** including acn
 
 ## 🧪 Real-World Validation
 
-One of the most striking test cases involved the model detecting **Psoriasis** on my own skin — despite me being in remission for quite some time and my psoriasis symptoms being almost negligible. This suggests the model may be picking up on subtle dermatological features not easily visible to the human eye. Maybe if the app was developed sooner, I could have began my treatment earlier (instead of thinking it was allergy! 😭)
+One of the most striking test cases involved the model detecting **Psoriasis** on my own skin — despite me being in remission for quite some time and my psoriasis symptoms being almost negligible. This suggests the model may be picking up on subtle dermatological features not easily visible to the human eye. Maybe if the app was developed sooner, I could have began my treatment earlier (instead of thinking it was allergy!)
 
 ![Insert my psoriasis detection](figures/psoriasis_detection.png)
 
