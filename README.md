@@ -2,6 +2,8 @@
 
 This project aims to empower individuals to **quickly identify common skin disorders** using deep learning. Born from a personal experience of living undiagnosed with psoriasis for over two years, this tool was built to bridge the gap between skin abnormalities and timely identification — especially for those without immediate access to dermatologists.
 
+The web app is live at [this link](https://adam-skin-disease-classifier-resnet50.streamlit.app/).
+
 The model supports classification of **14 common skin conditions** including acne, eczema, psoriasis, rosacea, alopecia, and more.
 
 ## 🧪 Real-World Validation
